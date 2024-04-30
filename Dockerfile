@@ -14,8 +14,8 @@
 
 FROM ubuntu:20.04
 
-ENV MONGO_VERSION 5.0.14
-ENV MONGO_TOOLS_VERSION 5.0.14
+ENV MONGO_VERSION 5.0.25
+ENV MONGO_TOOLS_VERSION 5.0.25
 
 RUN mkdir -p /etc/mongodb
 RUN mkdir -p /data/db /etc/ca
